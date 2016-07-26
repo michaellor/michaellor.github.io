@@ -829,3 +829,8 @@ section {
   margin: 0px;
   text-align: center;
 }
+
+#adobe--img1 {
+  width: auto;
+  height: 300px;
+}
