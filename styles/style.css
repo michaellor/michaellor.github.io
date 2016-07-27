@@ -750,12 +750,21 @@ a {
   font-family: 'Open Sans'; }
 
 
+/* CSS */
+
+body {
+  background-image: url('../img/portfolio_background-01.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 section {
   overflow: hidden; }
 
 .section--page1 {
   background-size: cover;
-  background-color: white;
+  /*background-color: blue;*/
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -765,7 +774,7 @@ section {
 
 .section--page2 {
   background-size: cover;
-  background-color: grey;
+  background-color: rgba(255, 0, 0, 0.5);
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -775,7 +784,7 @@ section {
 
 .section--page3 {
   background-size: cover;
-  background-color: tan;
+  background-color: rgba(200, 100, 0, 0.5);
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -785,7 +794,7 @@ section {
 
 .section--page4 {
   background-size: cover;
-  background-color: grey;
+  background-color: rgba(100, 100, 0, 0.5);
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -795,7 +804,7 @@ section {
 
 .section--page5 {
   background-size: cover;
-  background-color: tan;
+  background-color: rgba(50, 50, 150, 0.5);
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -811,10 +820,15 @@ section {
 }
 
 .column--left {
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
   height: 100vw;
   width: 20%;
   text-align: center;
+}
+
+.column--fa {
+  text-align: left;
+  margin-left: 50px;
 }
 
 .col-md-4 {
