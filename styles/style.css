@@ -764,7 +764,6 @@ section {
 
 .section--page1 {
   background-size: cover;
-  /*background-color: blue;*/
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -774,7 +773,7 @@ section {
 
 .section--page2 {
   background-size: cover;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(126, 137, 167, 0.5);
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -784,7 +783,7 @@ section {
 
 .section--page3 {
   background-size: cover;
-  background-color: rgba(200, 100, 0, 0.5);
+  background-color: rgba(165, 153, 142, 0.5);
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -794,7 +793,7 @@ section {
 
 .section--page4 {
   background-size: cover;
-  background-color: rgba(100, 100, 0, 0.5);
+  background-color: rgba(114, 145, 146, 0.5);
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -844,14 +843,14 @@ section {
   text-align: center;
 }
 
-.image--img1 {
+.page--images img {
   width: 150px;
-  height: 150px;
+  height: auto;
 }
 
 .image--img2 {
   width: 300px;
-  height: 300px;
+  height: auto;
 }
 
 
