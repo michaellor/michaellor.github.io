@@ -11,17 +11,14 @@
     <section class="section--page section--page1">
       <div class="column--left">
         <h1>Michael Lor</h1>
-        <h4>Developer + Designer</h4>
+        <h2>Web Designer & Developer</h2>
         <p><img src="img/logo-M.svg" class="main--logo"></img></p>
-        <div class="column--fa">
-          <p><i class="fa fa-camera fa-3x"></i> Photography</p>
-          <p><i class="fa fa-html5 fa-3x" aria-hidden="true"></i> HTML5</p>
-          <p><i class="fa fa-css3 fa-3x" aria-hidden="true"></i>CSS3</p>
-        </div>
-        <p><a href="#id--javascript">Javascript</a></p>
-        <p><a href="#id--php">PHP</a></p>
-        <p><a href="#id--website">Websites</a></p>
-        <p><a href="#id--graphic">Graphic Design</a></p>
+		<div class="nav--links">
+			<p><a href="#id--javascript">Projects</a></p>
+			<p><a href="#id--php">PHP</a></p>
+			<p><a href="#id--website">Websites</a></p>
+			<p><a href="#id--graphic">Graphic Design</a></p>
+		</div>	
       </div>
       <div class="content--page">
         <h4>I'm a Junior Web Developer from Portland, OR. I'm a Portland native that enjoys all things in the Pacific Northwest. I like working with front end development and design, but also have experience working with the back end. I am self taught in HTML, CSS, and Wordpress; but have education in languages such as Javascript, PHP, and Drupal. I'm an artist at heart, with a knack for creativity and an eye for design.</h4>
@@ -44,13 +41,12 @@
     </section>
     <section class="section--page section--page2">
       <div class="column--left">
-        <h1 id="id--javascript">Javascript</h1>
+        <h1 id="id--javascript">Projects</h1>
       </div>
       <div class="content--page">
         <div class="row">
           <div class="col-md-4">
             <p>Git It Got It</p>
-            <hr>
             <p>This is an app used to search for user data (via the github api) when a github username is provided and submitted into a form. The app returns the name, email, number of repositories the user has, as well as a sampled list of repository names and descriptions.
             <br><br>
             This app was developed in Javascript, with the use of NPM, Gulp, SASS, and Bower technologies.</p>
@@ -58,7 +54,6 @@
           </div>
           <div class="col-md-4">
             <p>To Do List - Angular2</p>
-            <hr>
             <p>This is a basic to-do list app. This application serves as a platform for the user to fill a form and add a task, select a checkbox to filter through tasks based on their done status, and to mark a task as done. These tasks are accomplished via components and piping.
             <br><br>
             This app was developed in Angular, with the use of NPM, Gulp, and Bower.
@@ -67,12 +62,39 @@
           </div>
           <div class="col-md-4">
             <p>Triangle Tracker</p>
-            <hr>
             <p>This is an app that determines if a triangle is a <em>scalene</em>, <em>isosceles</em>, or <em>equilateral</em>.  This is achieved with a form that takes 3 numeric user inputs and evaluates what type of triangle the 3 values create.  Invalid inputs also trigger alarm messages for incorrect inputs.
             <br><br>
             This app utilizes Javascript and jQuery.
             </p>
             <p><a href="https://github.com/michaellor/triangle" target="_blank">Github Repository</a></p>
+          </div>
+        </div>
+		<div class="row">
+          <div class="col-md-4">
+            <p>Queen Attack</p>
+            <p>This is a module that takes in user input for chess board coordinates of a Queen chess piece and a target chess peice. The module then calculates whether the Queen can destroy the target or not. There is also form validation to check and see if coordinate inputs are of the correct type and within the right parameters.
+            <br><br>
+            This app utilizes PHP for module development in a Drupal CMS environment.
+            </p>
+            <p><a href="https://github.com/michaellor/drupal-portland-site/blob/master/sites/all/modules/queen_attack/queen_attack.module" target="_blank">Github Code Sample</a></p>
+          </div>
+          <div class="col-md-4">
+            <p>Library Registrar</p>
+            <p>This is a project developed in PHP, dealing with many to many relationships. Creates classes with many to many relationships, such as Librarian and Patron; keeping a catalog and logging books checked in and out from the library. Database data query, read, write, update, and delete all handled via PHP and SQL commands.
+            <br><br>
+            This project utilizes PHP, Twig, Silex, MySQL, and Composer.</p>
+            <p><a href="https://github.com/michaellor/php-mysql-library" target="_blank">Github Repository</a>
+            <br>
+            <a href="https://raw.githubusercontent.com/michaellor/php-mysql-library/master/src/Author.php" target="_blank">Code Sample</a></p>
+          </div>
+          <div class="col-md-4">
+            <p>Shoe Store Project</p>
+            <p>This project allows for the addition of Shoe Stores and Shoe Brands. A database is used to create, store, and manage data for the Store class, the Brand class, and a join class between the two. Along with adding stores and brands, stores can also be deleted or updated with a new name. The join class allows for many to many relationships, which ties data between both classes, thus allowing the cross referencing of data between the two classes.
+            <br><br>
+            This project uses PHPUnit for unit testing. The project uses PHP, Twig, Silex, MySQL, and Composer.</p>
+            <p><a href="https://github.com/michaellor/php-code-review-4-shoestore" target="_blank">Github Repository</a>
+            <br>
+            <a href="https://raw.githubusercontent.com/michaellor/php-code-review-4-shoestore/master/src/Brand.php" target="_blank">Code Sample</a></p>
           </div>
         </div>
       </div>
@@ -85,7 +107,6 @@
         <div class="row">
           <div class="col-md-4">
             <p>Queen Attack</p>
-            <hr>
             <p>This is a module that takes in user input for chess board coordinates of a Queen chess piece and a target chess peice. The module then calculates whether the Queen can destroy the target or not. There is also form validation to check and see if coordinate inputs are of the correct type and within the right parameters.
             <br><br>
             This app utilizes PHP for module development in a Drupal CMS environment.
@@ -94,7 +115,6 @@
           </div>
           <div class="col-md-4">
             <p>Library Registrar</p>
-            <hr>
             <p>This is a project developed in PHP, dealing with many to many relationships. Creates classes with many to many relationships, such as Librarian and Patron; keeping a catalog and logging books checked in and out from the library. Database data query, read, write, update, and delete all handled via PHP and SQL commands.
             <br><br>
             This project utilizes PHP, Twig, Silex, MySQL, and Composer.</p>
@@ -104,7 +124,6 @@
           </div>
           <div class="col-md-4">
             <p>Shoe Store Project</p>
-            <hr>
             <p>This project allows for the addition of Shoe Stores and Shoe Brands. A database is used to create, store, and manage data for the Store class, the Brand class, and a join class between the two. Along with adding stores and brands, stores can also be deleted or updated with a new name. The join class allows for many to many relationships, which ties data between both classes, thus allowing the cross referencing of data between the two classes.
             <br><br>
             This project uses PHPUnit for unit testing. The project uses PHP, Twig, Silex, MySQL, and Composer.</p>
@@ -123,21 +142,18 @@
         <div class="row">
           <div class="col-md-4">
             <p>Andesite Technology</p>
-            <hr>
             <p>This was a website developed for a tech business who supplies various services like tech products and consulting for school districts. The site is primarily front end work, with webform functionality being handled in a Drupal CMS. This site is accomplished using custom theming for Drupal.
             <br><br>
             Theming for this site was done with the use of Javascript, CSS, and PHP. Drupal contrib modules such as Webform were used to address contact form submittal functionality and Superfish menu to deal with navigation.</p>
             <p><a href="http://www.andesitetech.com" target="_blank">Andesite Technology</a></p>
           </div>
           <div class="col-md-4">
-            <p>Auto Site Landing Page</p>
-            <hr>
-            <p>This is a mockup for a landing page for another production site. It was intended as a study for layout and styling heirarchy.
-            <p><a href="https://autosite-59d90.firebaseapp.com/" target="_blank">Auto Site Landing Page</a></p>
+            <p>Surgical Training Institute</p>
+            <p>This is a website built for a service providing mobile lab space for surgical training nationally and internationally. This site was built in a Wordpress environment. Plugins include Layer Slider and Contact Form 7 to achieve client needs. Front end styling completed via HTML and CSS.
+            <p><a href="http://www.mobilesti.com" target="_blank">Surgical Training Institute</a></p>
           </div>
           <div class="col-md-4">
             <p>Tracktown Auto</p>
-            <hr>
             <p>This was an existing project that I was assigned to work on. Some front end styling issues were addressed, with content layout and fonts adjusted to client spec. Most work was accomplished via programming in template files for Drupal.</p>
             <p><a href="http://tracktownauto.com/" target="_blank">Tracktown Auto</a></p>
           </div>
@@ -148,32 +164,28 @@
       <div class="column--left">
         <h1 id="id--graphic">Graphic Design</h1>
       </div>
-      <div class="content--page">
+      <div class="content--page page--images">
         <div class="row">
           <div class="col-md-3">
-            <a href="img/57Valkyrie.jpg" target="_blank"><img src="img/57Valkyrie.jpg" class="image--img1"></a>
+            <a href="img/57Valkyrie.jpg" target="_blank"><img src="img/57Valkyrie.jpg"></a>
             <br><br><br>
-            <a href="img/2008party.png" target="_blank"><img src="img/2008party.png" class="image--img1"></a>
+            <a href="img/rjb-general-contracting-inc-logo.png" target="_blank"><img src="img/rjb-general-contracting-inc-logo.png"></a>
             <br><br><br>
-            <a href="img/arch_infographic.png" target="_blank"><img src="img/arch_infographic.png" class="image--img1"></a>
+            <a href="img/arch_infographic.png" target="_blank"><img src="img/"></a>
           </div>
           <div class="col-md-3">
-            <a href="img/game_skin.jpg" target="_blank"><img src="img/game_skin.jpg" class="image--img1"></a>
+            <a href="img/game_skin.jpg" target="_blank"><img src="img/game_skin.jpg"></a>
             <br><br><br>
-            <a href="img/hydc_conference.png" target="_blank"><img src="img/hydc_conference.png" class="image--img1"></a>
+            <a href="img/hydc_conference.png" target="_blank"><img src="img/hydc_conference.png"></a>
             <br><br><br>
-            <a href="img/hmongosu2.png" target="_blank"><img src="img/hmongosu2.png" class="image--img1"></a>
-            <!-- <div id="myModal" class="modal">
-              <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-              <img class="modal-content" id="img01">
-            </div> -->
+            <a href="img/hmongosu2.png" target="_blank"><img src="img/hmongosu2.png"></a>
           </div>
           <div class="col-md-3">
-            <a href="img/Autobot_logo.png" target="_blank"><img src="img/Autobot_logo.png" class="image--img1"></a>
+            <a href="img/Autobot_logo.png" target="_blank"><img src="img/"></a>
             <br><br><br>
-            <a href="img/NSU_logo.png" target="_blank"><img src="img/NSU_logo.png" class="image--img1"></a>
+            <a href="img/NSU_logo.png" target="_blank"><img src="img/NSU_logo.png"></a>
             <br><br><br>
-            <a href="img/hmongosu.png" target="_blank"><img src="img/hmongosu.png" class="image--img1"></a>
+            <a href="img/hmongosu.png" target="_blank"><img src="img/"></a>
             </div>
           </div>
         </div>
