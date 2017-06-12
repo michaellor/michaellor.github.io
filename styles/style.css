@@ -762,65 +762,53 @@ body {
 section {
   overflow: hidden; }
 
-.section--page1 {
+.section--page1, .section--page2, .section--page3, .section--page4, .section--page5 {
   background-size: cover;
-  height: 100vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 30px 10px;
+}
+
+.section--page1 {
+
 }
 
 .section--page2 {
-  background-size: cover;
   background-color: rgba(126, 137, 167, 0.5);
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .section--page3 {
-  background-size: cover;
   background-color: rgba(165, 153, 142, 0.5);
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .section--page4 {
-  background-size: cover;
   background-color: rgba(114, 145, 146, 0.5);
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .section--page5 {
-  background-size: cover;
   background-color: rgba(50, 50, 150, 0.5);
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+}
+
+.section-break1 {
+  background: url('http://wallpapercave.com/wp/4HDJRCz.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
 }
 
 .content--page {
-  width: 70%;
+  width: 80%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 10px;
   margin-left: 50px;
+  padding-right: 100px;
 }
 
 .column--left {
   /*background-color: rgba(0, 0, 0, 0.5);*/
-  height: 100vw;
   width: 20%;
   text-align: center;
 }
