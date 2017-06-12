@@ -792,11 +792,11 @@ section {
 }
 
 .section-break1 {
-  background: url('http://wallpapercave.com/wp/4HDJRCz.jpg');
+  background: url('');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 150px;
+  height: 0px;
 }
 
 .content--page {
