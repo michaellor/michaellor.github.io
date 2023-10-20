@@ -4,9 +4,9 @@
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto);
+@import url(https://fonts.googleapis.com/css?family=Poppins|Roboto);
 html {
-  font-family: sans-serif;
+  font-family: Poppins,sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -371,7 +371,7 @@ h2,
 p,
 span,
 a {
-  font-family: 'Open Sans'; }
+  font-family: Poppins, sans-serif; }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -744,13 +744,13 @@ h2,
 p,
 span,
 a {
-  font-family: 'Open Sans'; }
+  font-family: Poppins,sans-serif; }
 
 
 /* CSS */
 
 body {
-  background-image: url('../img/portfolio_background-01.svg');
+  background-image: none;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
