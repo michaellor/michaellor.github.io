@@ -371,7 +371,7 @@ h2,
 p,
 span,
 a {
-  font-family: Poppins, sans-serif; }
+  font-family: Poppins, sans-serif !important; }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
