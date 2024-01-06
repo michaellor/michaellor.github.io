@@ -750,7 +750,6 @@ a {
 /* CSS */
 
 body {
-  background-color: #a4baab;
   background-image: none;
   background-repeat: no-repeat;
   background-size: cover;
@@ -770,7 +769,7 @@ section {
 }
 
 .section--page1 {
-
+  background-color: #a4baab;
 }
 
 .section--page2 {
