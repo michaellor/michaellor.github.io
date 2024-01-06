@@ -766,6 +766,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   padding: 30px 10px;
+  text-align: center;
 }
 
 .section--page1 {
@@ -775,7 +776,7 @@ section {
 }
 
 .section--page3 {
-  text-align: center;
+  
 }
 
 .section--page4 {
@@ -811,7 +812,6 @@ section {
   height: auto;
   margin-top: 10px;
   margin-left: 50px;
-  padding-right: 100px;
 }
 
 .column--left {
@@ -858,3 +858,9 @@ section {
    max-width: 250px;
    max-height: 250px;
  }
+
+.website-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
