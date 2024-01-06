@@ -855,3 +855,7 @@ section {
   width: 300px;
   height: auto;
 }
+
+ .logo-image {
+   max-width: 100%;
+ }
