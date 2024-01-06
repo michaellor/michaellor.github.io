@@ -759,7 +759,7 @@ body {
 section {
   overflow: hidden; }
 
-.section--page1, .section--page2, .section--page3, .section--page4, .section--page5 {
+.section--page1, .section--page2, .section--page3, .section--page4, .section--page5,  .section--page6 {
   background-size: cover;
   width: 100vw;
   display: -webkit-box;
@@ -768,7 +768,7 @@ section {
   padding: 30px 10px;
 }
 
-.section--page2, .section--page3, .section--page4, .section--page5 {
+.section--page2, .section--page3, .section--page4, .section--page5, .section--page6 {
   text-align: center;
 }
 
