@@ -750,6 +750,7 @@ a {
 /* CSS */
 
 body {
+  background-color: #a4baab;
   background-image: none;
   background-repeat: no-repeat;
   background-size: cover;
@@ -773,19 +774,15 @@ section {
 }
 
 .section--page2 {
-  background-color: rgba(126, 137, 167, 0.5);
 }
 
 .section--page3 {
-  background-color: rgba(165, 153, 142, 0.5);
 }
 
 .section--page4 {
-  background-color: rgba(114, 145, 146, 0.5);
 }
 
 .section--page5 {
-  background-color: rgba(50, 50, 150, 0.5);
 }
 
 .section-break1 {
