@@ -810,10 +810,10 @@ section {
 }
 
 .content--page {
-  width: 100vw;
+  width: 100%;
   max-width: 1200px;
   height: auto;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .column--fa {
