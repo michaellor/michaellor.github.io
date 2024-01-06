@@ -811,15 +811,9 @@ section {
 
 .content--page {
   width: 100vw;
+  max-width: 1200px;
   height: auto;
-  margin-top: 10px;
-  margin-left: 50px;
-}
-
-.column--left {
-  /*background-color: rgba(0, 0, 0, 0.5);*/
-  width: 20%;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .column--fa {
