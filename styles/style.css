@@ -767,8 +767,7 @@ section {
   display: flex;
   padding: 30px 10px;
 }
-
-.section--page2, .section--page3, .section--page4, .section--page5, .section--page6 {
+.section--page3, .section--page4, .section--page5, .section--page6 {
   text-align: center;
 }
 
@@ -811,7 +810,7 @@ section {
 }
 
 .content--page {
-  width: 80%;
+  width: 100vw;
   height: auto;
   margin-top: 10px;
   margin-left: 50px;
