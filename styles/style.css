@@ -766,6 +766,9 @@ section {
   display: -ms-flexbox;
   display: flex;
   padding: 30px 10px;
+}
+
+.section--page2, .section--page3, .section--page4, .section--page5 {
   text-align: center;
 }
 
