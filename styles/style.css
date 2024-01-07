@@ -766,7 +766,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px 10px;
+  padding: 10px 60px;
 }
 .section--page3, .section--page4, .section--page5, .section--page6 {
   text-align: center;
