@@ -762,7 +762,7 @@ section {
 .section--page1, .section--page2, .section--page3, .section--page4, .section--page5,  .section--page6 {
   background-size: cover;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
