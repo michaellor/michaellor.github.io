@@ -814,7 +814,7 @@ section {
   width: 100%;
   max-width: 1200px;
   height: auto;
-  margin: 20px auto;
+  margin: 20px auto 0;
 }
 
 .column--fa {
